@@ -22,6 +22,11 @@ LoRA Configurations
 <img width="5844" height="2578" alt="lora2_01" src="https://github.com/user-attachments/assets/4a6c9653-09cc-4c16-95d4-b474495cdc5d" />
 This subsection constructs a lightweight model for ship-to-shore E2E  communication latency prediction. We select deepseek-R1-1.5B model as foundation model and fune-tuning it with LoRA using our MEAND dataset to adapt the model to latency prediction tasks.
 
-
-Citation
+Frequently Asked Questions
 --
+Q：The dataset appears relatively small. How do you ensure the model's performance isn't due to overfitting on limited data?<br>
+A：
+
+
+Q:The networking aspects and wireless technology details are not clearly described. What specific communication technologies are used?<br>
+A:
