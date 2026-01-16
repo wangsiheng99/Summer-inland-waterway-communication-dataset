@@ -5,3 +5,10 @@ significantly influence end-to-end (E2E) latency prediction in wireless ship-to-
 To address these challenges, this work presents a Multimodal Environmental Augmented Navigation Dataset (MEAND). 
 MEAND integrates heterogeneous multimodal information, including meteorological variables, e.g., wind speed, temperature, and rainfall, 
 detailed waterway geometry, and fixed geographic features such as bridges and small islands, all of which directly affect wireless transmission performance.
+
+Dataset Construction
+--
+|Time||
+
+Citation
+--
