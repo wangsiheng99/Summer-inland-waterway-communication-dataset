@@ -8,7 +8,8 @@ detailed waterway geometry, and fixed geographic features such as bridges and sm
 
 Dataset Construction
 --
-
+<img width="4960" height="2178" alt="QApair_01" src="https://github.com/user-attachments/assets/c25f513a-1fb8-453a-9e4c-fc265d994e14" />
+MEAND expands FND by incorporating multimodal environmental information. In particular, inland waterways wind speed, temperature, and rainfall, are considered, as they directly influence wireless data transmission quality. Moreover, we integrate geographic information from the Yangtze waterway bureau, and marked fixed features, such as bridge, waterway geometry, and small islands in inland waterway.
 
 
 Citation
