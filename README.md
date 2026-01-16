@@ -11,6 +11,17 @@ Dataset Construction
 <img width="4960" height="2178" alt="QApair_01" src="https://github.com/user-attachments/assets/c25f513a-1fb8-453a-9e4c-fc265d994e14" />
 MEAND expands FND by incorporating multimodal environmental information. In particular, inland waterways wind speed, temperature, and rainfall, are considered, as they directly influence wireless data transmission quality. Moreover, we integrate geographic information from the Yangtze waterway bureau, and marked fixed features, such as bridge, waterway geometry, and small islands in inland waterway.
 
+Model Preparation
+--
+* Qwen/Qwen2-7B-Instruct
+* Deepseek-R1-Distill-Qwen-1.5B
+* huggyllama/llama-7b
+
+LoRA Configurations
+--
+<img width="5844" height="2578" alt="lora2_01" src="https://github.com/user-attachments/assets/4a6c9653-09cc-4c16-95d4-b474495cdc5d" />
+This subsection constructs a lightweight model for ship-to-shore E2E  communication latency prediction. We select deepseek-R1-1.5B model as foundation model and fune-tuning it with LoRA using our MEAND dataset to adapt the model to latency prediction tasks.
+
 
 Citation
 --
