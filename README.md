@@ -8,7 +8,7 @@ detailed waterway geometry, and fixed geographic features such as bridges and sm
 
 Dataset Construction
 --
-|Time||
+
 
 Citation
 --
