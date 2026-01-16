@@ -27,7 +27,7 @@ This subsection constructs a lightweight model for ship-to-shore E2E  communicat
 Frequently Asked Questions
 --
 Q：The dataset appears relatively small. How do you ensure the model's performance isn't due to overfitting on limited data?<br>
-A：
+A：It is worth noting that collecting large-scale, fine-grained measurement data in inland waterway communication scenarios is inherently challenging due to practical constraints such as limited measurement infrastructure, complex waterway geometry, and dynamic environmental conditions. As a result, available datasets in this domain are often limited in size. To address this limitation, the data in this work are aggregated on an hourly basis. Each data point represents a statistical summary of multiple communication events within one hour, e.g., average or weighted latency, rather than a single instantaneous measurement. This aggregation significantly reduces random noise and short-term fluctuations, thereby increasing the information content and reliability of each sample. To further mitigate overfitting, we adopt strict training–testing separation, and all reported results are evaluated on unseen test data. 
 
 Q:The networking aspects and wireless technology details are not clearly described. What specific communication technologies are used?<br>
 A:
