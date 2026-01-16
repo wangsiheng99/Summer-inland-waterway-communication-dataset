@@ -8,6 +8,7 @@ detailed waterway geometry, and fixed geographic features such as bridges and sm
 
 Dataset Construction
 --
+[QApair.pdf](https://github.com/user-attachments/files/24663312/QApair.pdf)
 
 
 Citation
