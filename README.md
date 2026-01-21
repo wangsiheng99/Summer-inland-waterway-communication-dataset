@@ -32,7 +32,7 @@ A：It is worth noting that collecting large-scale, fine-grained measurement dat
 
 Q: The networking aspects and wireless technology details are not clearly described. What specific communication technologies are used?<br>
 A: The considered ship-to-shore communication system adopts a heterogeneous maritime communication architecture. Beidou operates in the RTK positioning mode, providing high-precision and time synchronization. AIS is used to periodically broadcast basic navigation information, while VDES supports maritime-specific signaling and control data transmission. In near-shore and inland waterway scenarios with network coverage, 4G/5G cellular networks are leveraged to support high-data-rate data services, with the QUIC protocol employed to ensure efficient, reliable, and low-latency data transmission over these links.
-<img width="3956" height="2220" alt="插图_01" src="https://github.com/user-attachments/assets/1f68fa05-ff46-4d61-a9b7-793ee54e236e" />
+<img width="1978" height="1110" alt="插图_01" src="https://github.com/user-attachments/assets/1f68fa05-ff46-4d61-a9b7-793ee54e236e" />
 
 
 
