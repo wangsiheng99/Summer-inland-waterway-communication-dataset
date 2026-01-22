@@ -34,7 +34,8 @@ To prevent overfitting on the limited dataset, we incorporate Dropout regulariza
 Q: The networking aspects and wireless technology details are not clearly described. What specific communication technologies are used?<br>
 A: The considered ship-to-shore communication system adopts a heterogeneous maritime communication architecture. Beidou operates in the RTK positioning mode, providing high-precision and time synchronization. AIS is used to periodically broadcast basic navigation information. In near-shore and inland waterway scenarios with network coverage, 4G/5G cellular networks are leveraged to support high-data-rate data services, with the QUIC protocol employed to ensure efficient, reliable, and low-latency data transmission over these links.
 
-<img width="3956" height="2220" alt="插图_01" src="https://github.com/user-attachments/assets/d49b08ef-066a-4cb3-a843-f01d71ebd658" />
+<img width="3956" height="2220" alt="插图_01(1)" src="https://github.com/user-attachments/assets/f5972fc4-d15c-44fe-9321-027a255d154e" />
+
 
 
 
