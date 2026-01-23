@@ -26,7 +26,7 @@ This subsection constructs a lightweight model for ship-to-shore E2E  communicat
 Frequently Asked Questions
 --
 Q1：The dataset appears relatively small. How do you ensure the model's performance isn't due to overfitting on limited data?<br>
-A1：Collecting large-scale, fine-grained measurement-based data for inland waterway communications is inherently challenging due to practical constraints, such as limited infrastructure, complex waterway geometry, seasonal effects, and dynamic environmental conditions. These factors explain why datasets in this domain are typically limited in size. Notably, the data collected in this work are aggregated hourly, with each point representing a statistical characteristic (e.g., average or weighted latency) rather than a single-time instantaneous measurement. This aggregation reduces random noise and short-term fluctuations, thereby enhancing information accuracy and reliability. Moreover, to mitigate overfitting, we integrate Dropout regularization into our neural network architecture. During training, this technique randomly deactivates a subset of neurons in each layer, encouraging the model to learn robust and generalizable features.
+A1：Collecting large-scale, fine-grained measurement-based data for inland waterway communications is inherently challenging due to practical constraints, such as limited infrastructure, complex waterway geometry, seasonal effects, and dynamic environmental conditions. These factors explain why datasets in this domain are typically limited in size. Notably, the data collected in this work are aggregated hourly, with each point representing a statistical characteristic (e.g., average or weighted latency) rather than a single-time instantaneous measurement. This aggregation reduces random noise and short-term fluctuations, thereby enhancing information accuracy and reliability. Moreover, to mitigate overfitting, we integrate Dropout regularization into our neural network architecture [1]. During training, this technique randomly deactivates a subset of neurons in each layer, encouraging the model to learn robust and generalizable features.
 
 
 Q2: The networking aspects and wireless technology details are not clearly described. What specific communication technologies are utilized?<br>
@@ -34,7 +34,7 @@ A2: The system employs a heterogeneous networking architecture. In near-shore an
 
 <img width="3956" height="2220" alt="插图_01(1)" src="https://github.com/user-attachments/assets/f5972fc4-d15c-44fe-9321-027a255d154e" />
 
-
+[1] Y. Lin, X. Ma, X. Chu, Y. Jin, Z. Yang, Y. Wang, and H. Mei, “LoRA Dropout as a sparsity regularizer for overfitting control,” arXiv preprint arXiv:2404.09610, 2024.
 
 
 
